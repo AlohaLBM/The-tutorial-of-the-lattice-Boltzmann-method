@@ -1,2 +1,2 @@
-# 格子Boltzmann方法入门学习参考
+# 格子Boltzmann方法入门书目及相关论文
 Lattice Boltzmann method是近三十年来流行起来的一种
