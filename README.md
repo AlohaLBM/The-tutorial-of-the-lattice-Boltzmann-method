@@ -6,31 +6,32 @@
 # 一、中文著作      
 中文讲LBM的书，据我所知，目前有4本，3本国内出版的，1本A.A.Mohamad的英文教材的中文译本。  
 国内出版的三本教材分别是：
-<<流体动力学的格子Boltzmann方法>>  
+《流体动力学的格子Boltzmann方法》  
 华中科大郭照立老师2002年出版的，因为封面是黄色的，而且是16开印刷的，所以我们戏称为“小~黄~书”，这本书应该是很早的对LBM方法进行系统整理的教材，
 事实上也是郭老师本人在攻读博士学位期间所作的工作，所以这本书的部分内容是与郭老师的博士学位论文“模拟不可压流体流动的格子Boltzmann方法研究”重合的。
 
-<<格子Boltzmann方法的原理及应用>>    
+《格子Boltzmann方法的原理及应用》   
 郭老师2008年出版的新书，这本书的话，将02年之后新发展的一些LBM模型，如FV-LBM,FE-LBM，离散速度LBM，并对LBM的应用方面进行了扩充，加上了多相流LBM方法，多孔介质LBM，微尺度流动的LBM方法等，这本书是很常见的入门推荐教材。  
 
-<<格子Boltzmann方法的原理及应用>>    
+《格子Boltzmann方法的原理及应用》    
 2008年同年，西交大陶文铨院士的学生，何雅玲院士编写的教材出版，这也是一本经常被推荐的教材，书后有一个顶盖驱动空腔流的C++程序代码，应该是国内很多学生的启蒙代码了。    
 
-<<格子玻尔兹曼方法 基础与工程应用 附计算机代码>>  
-前面有“小黄书”，这本是“小红书”，是A.A.Mohamad在2011年出版的《Lattice Boltzmann Method Fundamentals and Engineering Applications with Computer Codes》的中文翻译版本，这本书写的比较浅显，更加基础，且每一个章节都有Fortran代码，网上有科研人员将Fortran代码用C++又重新写了一遍，供参考：[C++版Mohamad代码](https://github.com/zmhhaha/LBM-Cplusplus-A.A.Mohamad)  
+《格子玻尔兹曼方法 基础与工程应用 附计算机代码》  
+前面有“小黄书”，这本是“小红书”，是A.A.Mohamad在2011年出版的《Lattice Boltzmann Method Fundamentals and Engineering Applications with Computer Codes》的中文翻译版本，这本书写的比较浅显，更加基础，且每一个章节都有Fortran代码，网上有科研人员将Fortran代码用[C++](https://github.com/zmhhaha/LBM-Cplusplus-A.A.Mohamad) 又重新写了一遍，供参考。 
 
 # 二、英文著作      
 在英文书籍方面，可以在LibGen上用关键词检索，我这里放几本重要的。
-<<Lattice-gas cellular automata and lattice Boltzmann models>>
+《Lattice-gas cellular automata and lattice Boltzmann models》
   作者：Wolf Gladrow，这本书可能是最早的LBM的书，出版于2000年。  
   
-<<The Lattice Boltzmann Equation for Fluid Dynamics and Beyond>>  
+《The Lattice Boltzmann Equation for Fluid Dynamics and Beyond》 
 对于LBM做出了开创性工作的Prof Sauro.Succi，这位大牛挺有意思，每一章节开始的时候都会放一句话，什么孔子，Bob Dylon，还挺有情怀的。  
   
- <<Lattice Boltzmann Modeling: An Introduction for Geoscientists and Engineers>>
+ 《Lattice Boltzmann Modeling: An Introduction for Geoscientists and Engineers》
 这本书侧重多相流，比较薄，可以作为多相流入门的好教材。  
   
-  <<Lattice Boltzmann Method and its Applications in Engineering>>
-  2013年，郭照立老师和新加坡国立另一位大牛--Chang Shu老师合著的，郭老师的章节基本就是中文版本的翻译，增加了Immersed Boundary Method，即浸没边界法的部分，Chang Shu老师的部分是LBM在可压缩流动流域的应用。  
+  《Lattice Boltzmann Method and its Applications in Engineering》
+2013年，郭照立老师和新加坡国立大学另一位LBM领域的大牛--Chang Shu老师合著的，郭老师的章节基本就是中文版本的翻译，增加了Immersed Boundary Method，即浸没边界法的部分，Chang Shu老师的部分是LBM在可压缩流动流域的应用。  
   
-  <<>>
+  《The Lattice Boltzmann Method Principles and Practice》
+爱丁堡大学的T. Krüger等人，给研究生编写的教材，因为目的就是教材，这本书写的非常的全面，可以当作工具书进行查询，相关章节算例的代码也放在了[Github]上(https://github.com/lbm-principles-practice/code)
