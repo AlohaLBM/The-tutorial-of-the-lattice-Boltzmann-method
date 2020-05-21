@@ -1,11 +1,15 @@
 # Lattice Boltzmann Method
 # 前言
-近年来，将流体视为由大量粒子构成的离散体系，进而研究其统计学行为的介观方法备受关注。介观方法的不基于连续性假设，压力通过状态方程求解，天然并行等特性使得它成为了一个研究流体力学的潜在工具，事实上，如格子Boltzmann方法（Lattice Boltzmann method,以下简称，LBM），离散统一气体动力学方法（DUGKS）等方法已经吸引了众多研究者。LBM方法在诞生至今的三十年间，得到了长足的发展，被广泛运用于微/纳米尺度流，多相流，多孔介质流等众多领域。
+近年来，将流体视为由大量粒子构成的离散体系，进而研究其统计学行为的介观方法备受关注。介观方法的不基于连续性假设，压力通过状态方程求解，天然并行等特性使得它成为了一个研究流体力学的潜在工具，事实上，如格子Boltzmann方法（Lattice Boltzmann method,以下简称，LBM），离散统一气体动力学方法（DUGKS）等方法已经吸引了众多研究者。LBM方法在诞生至今的三十年间，得到了长足的发展，被广泛运用于微/纳米尺度流，多相流，多孔介质流等众多领域。  
+
 本项目是记录自己在学习LBM过程中，通过网络搜集到的各种教材，Slides，目的是帮助“开荒”的初学者，快速形成对LBM的了解。    
   
-# 一、中文著作      
-中文讲LBM的书，据我所知，目前有4本，3本国内出版的，1本A.A.Mohamad的英文教材的中文译本。  
-国内出版的三本教材分别是：
+# 一、中文著作        
+
+中文讲LBM的书，据我所知，目前有4本，3本国内出版的，1本A.A.Mohamad的英文教材的中文译本。   
+
+国内出版的三本教材分别是：  
+
 《流体动力学的格子Boltzmann方法》  
 华中科大郭照立老师2002年出版的，因为封面是黄色的，而且是16开印刷的，所以我们戏称为“小~黄~书”，这本书应该是很早的对LBM方法进行系统整理的教材，
 事实上也是郭老师本人在攻读博士学位期间所作的工作，所以这本书的部分内容是与郭老师的博士学位论文“模拟不可压流体流动的格子Boltzmann方法研究”重合的。
@@ -19,8 +23,10 @@
 《格子玻尔兹曼方法 基础与工程应用 附计算机代码》  
 前面有“小黄书”，这本是“小红书”，是A.A.Mohamad在2011年出版的《Lattice Boltzmann Method Fundamentals and Engineering Applications with Computer Codes》的中文翻译版本，这本书写的比较浅显，更加基础，且每一个章节都有Fortran代码，网上有科研人员将Fortran代码用[C++](https://github.com/zmhhaha/LBM-Cplusplus-A.A.Mohamad) 又重新写了一遍，供参考。 （不过这本书是罗礼诗老师口中的“垃圾！”）
 
-# 二、英文著作      
+# 二、英文著作     
+
 在英文书籍方面，可以在LibGen上用关键词检索，我这里放几本重要的。  
+
 《Lattice-gas cellular automata and lattice Boltzmann models》
   作者：Wolf Gladrow，这本书可能是最早的LBM的书，出版于2000年。  
   
@@ -38,8 +44,10 @@
 
 还收集了一些LBM的书，就不一一介绍了，电子版都打包放在了一起：https://pan.baidu.com/s/1yAKSV-C7gLB8FQU0Nh8MXw  提取码：xuxu  
 
-# 三、Slides  
-这一部分是收集到的一部分讲义，可以配合上述的书籍使用，单纯看Slides的话，效果并不一定好，配合书一起是比较好的。  
+# 三、Slides    
+
+这一部分是收集到的一部分讲义，可以配合上述的书籍使用，单纯看Slides的话，效果并不一定好，配合书一起是比较好的。   
+
 2011-LBM Workshop  
 2011年在加拿大的Edmonton，举办过一个LBM的Workshop，主要的演讲者包括了《The Lattice Boltzmann Method Principles and Practice》这本书的一些作者，这个交流会，内容涵盖了LBM原理，边界处理，多相流，浸没边界法，GPU加速等方面的内容，有讲稿，给听者留了问题，还公布一些基础代码，这个Workshop也有Github项目：https://github.com/AlohaLBM/LBMWorkshop  
 
@@ -49,14 +57,16 @@
 大连理工大学-相变传热与流体流动数值分析-11~14  
 李维仲老师这门课程的11~14部分，介绍LBM的发展，基本原理，边界处理，多相流模型，热模型，LBGK到N-S方程的推导，讲解的非常详细。  
 
-这些讲稿打包在这里：https://pan.baidu.com/s/17oBShXLxTNFWCt0oveE7Tg 提取码：ivxn 
+这些讲义打包在这里：https://pan.baidu.com/s/17oBShXLxTNFWCt0oveE7Tg 提取码：ivxn 
 
-# 四、重要论文  
+# 四、重要论文    
+
 这里说的重要，是用Histcite Pro软件，对WOS上关键词为LBM，引用量前500的论文进行分析，按照LCS指数降序排列整理的前30篇论文，选择相关领域进行学习。    
 论文打包：https://pan.baidu.com/s/1TRAEsbSXeOvs9Re4pkeaCA 提取码：ktxr
 
-# 五、视频学习课程  
-网上讲解LBM的视频是很少的，我这里收集到了两套，一个是开源软件palabos的开发者，Jonas Latt在日内瓦大学公开课中的LBM章节，一个是Sauro Succi教授，2012年5月15日至18日在斯德哥尔摩的Nordita开设的“模拟复杂的跨尺度的格子Boltzmann方法”的短期课程。扪心自问，这个视频我自己也没看完，但也放出来给有需要的beginner。课程地址：https://space.bilibili.com/473839477/channel/detail?cid=129064
+# 五、视频学习课程    
+
+网上讲解LBM的视频是很少的，我这里收集到了两套完整的课程，一个是开源软件palabos的开发者，Jonas Latt在日内瓦大学公开课中的LBM章节，一个是Sauro Succi教授，2012年5月15日至18日在斯德哥尔摩的Nordita开设的“模拟复杂的跨尺度的格子Boltzmann方法”的短期课程。不过，这个视频我自己也没看完，但也放出来给有需要的beginner。课程地址：https://space.bilibili.com/473839477/channel/detail?cid=129064
 
 
 
