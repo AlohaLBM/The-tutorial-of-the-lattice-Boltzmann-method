@@ -24,14 +24,38 @@
 《Lattice-gas cellular automata and lattice Boltzmann models》
   作者：Wolf Gladrow，这本书可能是最早的LBM的书，出版于2000年。  
   
-《The Lattice Boltzmann Equation for Fluid Dynamics and Beyond》 
+《The Lattice Boltzmann Equation for Fluid Dynamics and Beyond》   
 对于LBM做出了开创性工作的Prof Sauro.Succi，这位大牛挺有意思，每一章节开始的时候都会放一句话，什么孔子，Bob Dylon，还挺有情怀的。  
   
- 《Lattice Boltzmann Modeling: An Introduction for Geoscientists and Engineers》
-这本书侧重多相流，比较薄，可以作为多相流入门的好教材。  
+ 《Lattice Boltzmann Modeling: An Introduction for Geoscientists and Engineers》  
+这本书侧重多相流，比较薄，但是基础概念讲的很好，可以作为多相流入门的好教材。  
   
-  《Lattice Boltzmann Method and its Applications in Engineering》
+  《Lattice Boltzmann Method and its Applications in Engineering》  
 2013年，郭照立老师和新加坡国立大学另一位LBM领域的大牛--Chang Shu老师合著的，郭老师的章节基本就是中文版本的翻译，增加了Immersed Boundary Method，即浸没边界法的部分，Chang Shu老师的部分是LBM在可压缩流动流域的应用。  
   
-  《The Lattice Boltzmann Method Principles and Practice》
-爱丁堡大学的T. Krüger等人，给研究生编写的教材，因为目的就是教材，这本书写的非常的全面，可以当作工具书进行查询，相关章节算例的代码也放在了[Github]上(https://github.com/lbm-principles-practice/code)
+  《The Lattice Boltzmann Method Principles and Practice》  
+爱丁堡大学的T. Krüger等人，给研究生编写的教材，因为目的就是教材，这本书写的非常的全面，可以当作工具书进行查询，相关章节算例的代码也放在了[Github](https://github.com/lbm-principles-practice/code).  
+
+还收集了一些LBM的书，就不一一介绍了，电子版都打包放在了一起：  
+
+
+
+# 三、Slides  
+这一部分是收集到的一部分讲稿，可以配合上述的书籍使用，单纯看Slides的话，效果并不一定好，配合书一起是比较好的。  
+2011-LBM Workshop  
+2011年在加拿大的Edmonton，举办过一个LBM的Workshop，主要的演讲者包括了《The Lattice Boltzmann Method Principles and Practice》这本书的一些作者，这个交流会，内容涵盖了LBM原理，边界处理，多相流，浸没边界法，GPU加速等方面的内容，有讲稿，给听者留了问题，还公布一些基础代码，这个Workshop也有Github项目：https://github.com/AlohaLBM/LBMWorkshop  
+
+西安交通大学-计算传热学的近代进展--LBM部分  
+陶文铨院士课题组的计算传热学的近代进展，这门课程，从2019年开始，给LBM设置了课时，我把课程所用的PPT收集了过来。  
+
+大连理工大学-相变传热与流体流动数值分析-11~14  
+李维仲老师这门课程的11~14部分，介绍LBM的发展，基本原理，边界处理，多相流模型，热模型，LBGK到N-S方程的推导，讲解的非常详细。  
+
+这些讲稿打包在这里：  
+
+# 四、重要论文  
+这里是用Histcite Pro软件，对WOS上LBM引用量前500的论文进行分析，按照LCS指数降序排列整理的前30篇论文，选择相关领域进行学习。  
+
+# 五、视频学习课程
+
+
